@@ -46,6 +46,7 @@ section{
 
 img{
     max-width: 100%;
+
 }
 
 /* #endregion Utility  */
@@ -104,12 +105,57 @@ a{
     justify-content: flex-end;
 }
 
+.user_start{
+    background: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
 .bigblockheight{
     height: 90%;
 }
 
-.block_width_40{
-    width: 40%;
+.app_choice{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    color: var(--discord-primary);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.title_description{
+    color: var(--discord-primary);
+    font-size: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.mac{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+}
+
+.browser{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: var(--discord-primary);
+    background-color: black;
+    border: none;
 }
 
 .bigsection{
