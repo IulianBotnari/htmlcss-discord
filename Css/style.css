@@ -275,6 +275,7 @@ footer{
     align-items: center;
     height: 70%;
     border-top: 1px solid var(--discord-lightblue);
+    width: 60%;
 }
 
 .logo_footer{
