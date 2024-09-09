@@ -5,17 +5,13 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.debug{
-    border: 1px dashed black;
-}
+/* #region Utility */
 
-
-/* #region debug */
-
-/* #region Utility  */
-
-.blockheight{
-    height: 180px;
+.oneblock{
+    display: flex;
+    width: 60%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 section{
@@ -34,20 +30,10 @@ section{
 }
 
 
-/* .oneblock{
-    display: flex;
-    width: 60%; */
-    
-
-
 img{
     max-width: 100%;
     
 }
-
-/* #endregion Utility  */
-
-
 
 :root{
     --discord-primary: #f6f6f6;
@@ -56,6 +42,33 @@ img{
     --discord-lightblue: #7289da;
     
 }
+
+h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--discord-primary);
+    font-weight: bold;
+    margin:1rem;
+}
+
+.description{
+    width: 40%;
+    height: 100%;
+}
+
+.p_text_margin{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+/* #endregion Utility  */
+
+/* #region header */
 
 #header{
     padding: 1rem;
@@ -83,12 +96,6 @@ img{
     justify-content: center;
 }
 
-a{
-    text-decoration: none;
-    color: var(--discord-primary);
-    font-weight: bold;
-    margin:1rem;
-}
 
 .accedi{
     background-color: white;
@@ -101,6 +108,11 @@ a{
     justify-content: flex-end;
 }
 
+
+/* #endregion header */
+
+/* #region user start */
+
 .user_start{
     background: url(../img/jumbo.png);
     background-repeat: no-repeat;
@@ -109,9 +121,6 @@ a{
     height: 450px;
 }
 
-.bigblockheight{
-    height: 90%;
-}
 
 .app_choice{
     width: 50%;
@@ -121,6 +130,7 @@ a{
     align-items: center;
     
 }
+
 
 .title{
     color: var(--discord-primary);
@@ -154,21 +164,11 @@ a{
     border: none;
 }
 
-.description{
-    width: 40%;
-    height: 100%;
-}
+/* #endregion user start */
 
-h2{
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
+/* #region talk space */
 
-.p_text_margin{
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
+/* #region founding */
 
 .founding{
     background-color: var(--discord-primary);
@@ -178,15 +178,15 @@ h2{
     margin-left: 2rem;
 }
 
+/* #endregion founding */
+
+/* #region technology */
 .technology_section{
     background-color: var(--discord-primary);
-    margin-top: 10rem;
 }
 
 .technology{
-    display: flex;
     flex-direction: column;
-    width: 60%;
     justify-content: center;
     margin-bottom: 4rem;
 }
@@ -225,6 +225,9 @@ h2{
     font-weight: bold;
 }
 
+/* #endregion technology */
+
+/* #region footer */
 .faq_contacts_section{
     background-color: var(--discord-secondary);
 }
@@ -246,22 +249,8 @@ h2{
 }
 
 
-.footer_link{
-
-}
-
-.oneblock{
-    display: flex;
-    width: 60%;
-}
-
-.bigsection{
-    height: 350px;
-}
-
 .big_tall_block{
     width: 30%;
-    
 }
 
 
@@ -314,3 +303,5 @@ footer{
     font-weight: bold;
     font-size: .7rem;
 }
+
+/* #endregion footer */
