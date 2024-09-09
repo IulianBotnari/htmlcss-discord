@@ -18,7 +18,7 @@
 }
 
 section{
-    height: 200px;
+    height: 600px;
     width: 100%;
 }
 
@@ -33,20 +33,16 @@ section{
     height: 100%;
 }
 
-.smallblock{
-    width: 40%;
-    height: 100%;
-}
 
 .oneblock{
     display: flex;
     width: 60%;
-
+    
 }
 
 img{
     max-width: 100%;
-
+    
 }
 
 /* #endregion Utility  */
@@ -58,7 +54,7 @@ img{
     --discord-secondary: #23272a;
     --discord-blue: #3161e0;
     --discord-lightblue: #7289da;
-
+    
 }
 
 #header{
@@ -73,13 +69,13 @@ img{
     height: 36px;
     display: flex;
     align-items: center;
-
+    
 }
 
 .logo, .login{
     width: 10%;
-
-
+    
+    
 }
 
 .link{
@@ -123,7 +119,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .title{
@@ -158,6 +154,30 @@ a{
     border: none;
 }
 
+.description{
+    width: 40%;
+    height: 100%;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.p_text{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.founding{
+    background-color: var(--discord-primary);
+}
+
+.founding_img{
+    margin-left: 2rem;
+}
+
 .bigsection{
     height: 350px;
 }
@@ -165,7 +185,7 @@ a{
 .big_tall_block{
     height: 95%;
     width: 30%;
-
+    
 }
 
 .small_tall_block{
