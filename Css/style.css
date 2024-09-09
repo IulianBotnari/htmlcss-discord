@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+
+/* #region debug */
+
+/* #region Utility  */
+
+.blockheight{
+    height: 180px;
+}
+
+section{
+    height: 200px;
+    width: 100%;
+}
+
+.center_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigblock{
+    width: 100%;
+    height: 100%;
+}
+
+.smallblock{
+    width: 40%;
+    height: 100%;
+}
+
+.oneblock{
+    display: flex;
+    width: 60%;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+/* #endregion Utility  */
+
+
+
+:root{
+    --discord-primary: #f6f6f6;
+    --discord-secondary: #23272a;
+    --discord-blue: #3161e0;
+    --discord-lightblue: #7289da;
+
+}
+
+#header{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--discord-blue);
+}
+
+.logo, .link, .login{
+    height: 36px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo, .login{
+    width: 10%;
+
+
+}
+
+.link{
+    width: 40%;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--discord-primary);
+    font-weight: bold;
+    margin:1rem;
+}
+
+.accedi{
+    background-color: white;
+    border: 1px solid white;
+    padding: 0.3rem;
+    border-radius: 13px;
+}
+
+.login{
+    justify-content: flex-end;
+}
+
+.bigblockheight{
+    height: 90%;
+}
+
+.block_width_40{
+    width: 40%;
+}
+
+.bigsection{
+    height: 350px;
+}
+
+.big_tall_block{
+    height: 95%;
+    width: 30%;
+
+}
+
+.small_tall_block{
+    height: 95%;
+    width: calc((100% - 30%) / 4);
+    
+}
+
+footer{
+    display: flex;
+    height: 80px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.div_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+
+.logo_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 20px;
+}
