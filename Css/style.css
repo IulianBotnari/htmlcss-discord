@@ -241,6 +241,10 @@ a{
     margin: 0;
 }
 
+.fa{
+    margin-right: .5rem;
+}
+
 .footer_link_blue{
     color: var(--discord-lightblue);
 
